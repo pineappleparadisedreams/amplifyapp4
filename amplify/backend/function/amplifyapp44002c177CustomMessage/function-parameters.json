@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "amplifyapp44002c177",
+  "functionName": "amplifyapp44002c177CustomMessage",
+  "resourceName": "amplifyapp44002c177CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "C:\\Users\\CasaD\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "amplifyapp44002c177CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://main.d2ycjb3tgbw28m.amplifyapp.com/",
+  "EMAILSUBJECT": "Confirmation Email for AmplifyApp4",
+  "EMAILMESSAGE": "TEST body text for email for the AmplifyApp4",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

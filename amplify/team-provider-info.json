@@ -1,0 +1,47 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify59685df1b2494-staging-204525-authRole",
+      "UnauthRoleArn": "arn:aws:iam::509760504637:role/amplify-amplify59685df1b2494-staging-204525-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::509760504637:role/amplify-amplify59685df1b2494-staging-204525-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amplify59685df1b2494-staging-204525-deployment",
+      "UnauthRoleName": "amplify-amplify59685df1b2494-staging-204525-unauthRole",
+      "StackName": "amplify-amplify59685df1b2494-staging-204525",
+      "StackId": "arn:aws:cloudformation:us-west-2:509760504637:stack/amplify-amplify59685df1b2494-staging-204525/f92e33e0-b819-11eb-aae4-0692e61896a9",
+      "AmplifyAppId": "d2ycjb3tgbw28m",
+      "AuthTriggerTemplateURL": ""
+    },
+    "categories": {
+      "auth": {
+        "amplifyapp44002c177": {
+          "facebookAppId": "659482251661760",
+          "googleClientId": "Pineapple-Paradise-AmplifyApp4",
+          "amazonAppId": "amzn1.devportal.webapp.40d3e259315f4b86aedb5837f1b5efbf"
+        }
+      },
+      "function": {
+        "amplifyapp44002c177CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-amplify59685df1b2494-staging-204525-deployment",
+          "s3Key": "amplify-builds/amplifyapp44002c177CreateAuthChallenge-7864684169703076346d-build.zip"
+        },
+        "amplifyapp44002c177CustomMessage": {
+          "REDIRECTURL": "https://main.d2ycjb3tgbw28m.amplifyapp.com/",
+          "EMAILSUBJECT": "Confirmation Email for AmplifyApp4",
+          "EMAILMESSAGE": "TEST body text for email for the AmplifyApp4",
+          "deploymentBucketName": "amplify-amplify59685df1b2494-staging-204525-deployment",
+          "s3Key": "amplify-builds/amplifyapp44002c177CustomMessage-6435304c76496350795a-build.zip"
+        },
+        "amplifyapp44002c177DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-amplify59685df1b2494-staging-204525-deployment",
+          "s3Key": "amplify-builds/amplifyapp44002c177DefineAuthChallenge-76334774664663485777-build.zip"
+        },
+        "amplifyapp44002c177VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "23456789",
+          "deploymentBucketName": "amplify-amplify59685df1b2494-staging-204525-deployment",
+          "s3Key": "amplify-builds/amplifyapp44002c177VerifyAuthChallengeResponse-55536738586b6b324d4f-build.zip"
+        }
+      }
+    }
+  }
+}
